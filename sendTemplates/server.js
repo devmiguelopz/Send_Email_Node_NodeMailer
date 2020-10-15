@@ -1,5 +1,4 @@
 /*
-    Video: https://www.youtube.com/watch?v=38aE1lSAJZ8
     Don't forget to disable less secure app from Gmail: https://myaccount.google.com/lesssecureapps TODO:
 */
 
