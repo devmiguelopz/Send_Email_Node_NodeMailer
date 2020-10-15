@@ -1,5 +1,4 @@
 /*
-    Video: https://www.youtube.com/watch?v=9zEhGUIUwxY
     Don't forget to disable less secure app from Gmail: https://myaccount.google.com/lesssecureapps
 */
 
@@ -29,9 +28,4 @@ let mailOptions = {
 };
 
 // Step 3
-transporter.sendMail(mailOptions, (err, data) => {
-    if (err) {
-        return log('Error occurs');
-    }
-    return log('Email sent!!!');
-});
+transporter.sendMail(mailOptions, (err, data) => err ? log('Error occurs') : log('Email sent!!!'));

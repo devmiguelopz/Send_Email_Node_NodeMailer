@@ -38,9 +38,4 @@ let mailOptions = {
 };
 
 // Step 4
-transporter.sendMail(mailOptions, (err, data) => {
-    if (err) {
-        return log('Error occurs');
-    }
-    return log('Email sent!!!');
-});
+transporter.sendMail(mailOptions, (err, data) => err ? log('Error occurs') : log('Email sent!!!'));
