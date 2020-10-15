@@ -1,6 +1,4 @@
-/*
-    Video: https://www.youtube.com/watch?v=i62jmLC15qQ
-*/
+
 
 require('dotenv').config();
 
